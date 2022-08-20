@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  align-items: flex-start;
+  -ms-align-items: flex-start;
+  display: flex;
+  -ms-display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  overflow: auto;
+  height: auto;
+  min-height: 100vh!important;
+  background-color: #fff;
+  color: #5f7d95;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 54px;
+  width: 100%;
+  background-color: #0b2239;
+  padding: 0 20px;
+}
+
+#hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px 0;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #374957;
+  width: 100%;
+  height: 441px;
+}
+
+#hero-h1 {
+  font-size: 40px;
+  font-weight:bolder;
+}
+
+#hero-p {
+  width: 700px;
+  text-align: center;
+}
+
+#search-form {
+  width: 60%;
+  height: 70px;
+  background-color: #eff3f6;
+}
+
+#search-input {
+  width: 100%;
+  height: 100%;
+}
+
+
+#products-cards-section {
+  height: 550px;
+  text-align: center;
+  background-color: #fff;
+  color: #374957;
+  width: 100%;
+}
+
+#features-section {
+  height: 550px;
+  text-align: center;
+  background-color: #fff;
+  color: #374957;
+  width: 100%;
+}
+
+#tools-section {
+  height: 550px;
+  text-align: center;
+  background-color: #fff;
+  color: #374957;
+  width: 100%;
+}
+
+#new-features-section {
+  height: 550px;
+  text-align: center;
+  background-color: #fff;
+  color: #374957;
+  width: 100%;
+}
+
+#contributors-section {
+  height: 550px;
+  text-align: center;
+  background-color: #fff;
+  color: #374957;
+  width: 100%;
+}
+
+
+
+footer {
+  background-color: #08192b;
+  color: #869fb2;
+  padding: 50px 0 0;
+  font-size: 14px;
+  margin: 0;
+  border: none;
+  width: 100%;
+  height: 852px;
+}
